@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header test renders the header 1`] = `
+<Fragment>
+  <img
+    src="../../assets/saturday.jpg"
+  />
+  <h1>
+    THE COOLEST DOG
+  </h1>
+</Fragment>
+`;
