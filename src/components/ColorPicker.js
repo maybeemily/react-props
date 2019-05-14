@@ -1,28 +1,26 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default function ColorPicker() {
+function ColorPicker({ color, hex }){
+  
+  const clickHandler = () => {
+    console.log(color);
+  };
 
-  const style1 = {
-    height: '30px',
-    width: '30px',
-    'background-color': 'pink'
+  const style = {
+    backgroundColor: hex,
+    height: '100px',
+    width: '100px'
   };
-  const style2 = {
-    height: '30px',
-    width: '30px',
-    'background-color': 'yellow'
-  };
-  const style3 = {
-    height: '30px',
-    width: '30px',
-    'background-color': 'powderblue'
-  };
+
   return (
-    <ul>
-      <li><span style={style1}>PINK</span></li>
-      <li><span style={style2}>YELLOW</span></li>
-      <li><span style={style3}>BLUE</span></li>
-    </ul>
+    <button style={style} onClick={clickHandler}>{color}</button>
   );
-
 }
+
+ColorPicker.propTypes = {
+  color: PropTypes.string.isRequired,
+  hex: PropTypes.string.isRequired
+};
+
+export default ColorPicker;

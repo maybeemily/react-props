@@ -1,45 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Color Picker tests renders the color picker 1`] = `
-<ul>
-  <li>
-    <span
-      style={
-        Object {
-          "background-color": "pink",
-          "height": "30px",
-          "width": "30px",
-        }
-      }
-    >
-      PINK
-    </span>
-  </li>
-  <li>
-    <span
-      style={
-        Object {
-          "background-color": "yellow",
-          "height": "30px",
-          "width": "30px",
-        }
-      }
-    >
-      YELLOW
-    </span>
-  </li>
-  <li>
-    <span
-      style={
-        Object {
-          "background-color": "powderblue",
-          "height": "30px",
-          "width": "30px",
-        }
-      }
-    >
-      BLUE
-    </span>
-  </li>
-</ul>
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f4d742",
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+>
+  yellow
+</button>
 `;
