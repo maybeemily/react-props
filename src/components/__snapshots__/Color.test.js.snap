@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color test renders the color 1`] = `
+<ul>
+  <li>
+    Color Name: 
+    <span
+      style={
+        Object {
+          "background-color": Object {
+            "hex": "#c6f470",
+          },
+        }
+      }
+    >
+      #c6f470
+    </span>
+  </li>
+  <li>
+    Color Hex: 
+    #c6f470
+  </li>
+  <li>
+    Color RGB: 
+    (198, 244, 112)
+  </li>
+</ul>
+`;
