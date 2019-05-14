@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dog tests renders a dog 1`] = `
+<ul>
+  <li>
+    Name: 
+    Saturday
+  </li>
+  <li>
+    Age: 
+    16
+  </li>
+  <li>
+    Weight: 
+    15 lbs
+  </li>
+  <li>
+    Favorite Food: 
+    unknown
+  </li>
+</ul>
+`;
